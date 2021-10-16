@@ -20,10 +20,11 @@ int main(int argc, char *argv[])
  cout<<tablica[rozmiar-1]<<endl;
  delete [] tablica;
 */
-  /*  for(int i = 0; i < argc ; ++i) {
+    for(int i = 0; i < argc ; ++i) {
         cout << argv[i] <<endl;
     }
-*/
+
+    /*
   if(argc!=3)
   {
       cout<<"podana została zła ilość argumentów!"<<endl;
@@ -59,6 +60,7 @@ int main(int argc, char *argv[])
       w=argv[1] + argv[2];
 
   }
+    */
     return 0;
 }
 
