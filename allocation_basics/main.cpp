@@ -24,7 +24,6 @@ int main(int argc, char *argv[])
         cout << argv[i] <<endl;
     }
 
-    /*
   if(argc!=3)
   {
       cout<<"podana została zła ilość argumentów!"<<endl;
@@ -60,7 +59,7 @@ int main(int argc, char *argv[])
       w=argv[1] + argv[2];
 
   }
-    */
+
     return 0;
 }
 
