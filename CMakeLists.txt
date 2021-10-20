@@ -4,4 +4,8 @@ add_subdirectory(simpleCalc)
 
 add_subdirectory(allocation_basics)
 
+add_subdirectory(firstLib)
+
+add_subdirectory(firstLibCall)
+
 

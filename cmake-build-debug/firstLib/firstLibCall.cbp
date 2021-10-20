@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="firstLibCall"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\simpleCalc\;CMake Files\allocation_basics\;CMake Files\firstLib\;CMake Files\firstLibCall\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/cygdrive/c/Users/HP/CLionProjects/JIPP2/cmake-build-debug/firstLib"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/HP/CLionProjects/JIPP2/cmake-build-debug/firstLib/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/HP/CLionProjects/JIPP2/cmake-build-debug/firstLib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/HP/CLionProjects/JIPP2/cmake-build-debug/firstLib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/HP/CLionProjects/JIPP2/cmake-build-debug/firstLib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="firstLib">
+				<Option output="/cygdrive/c/Users/HP/CLionProjects/JIPP2/cmake-build-debug/firstLib/libfirstLib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/HP/CLionProjects/JIPP2/cmake-build-debug/firstLib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/HP/CLionProjects/JIPP2/firstLib/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/HP/CLionProjects/JIPP2/cmake-build-debug/firstLib/Makefile&quot;  VERBOSE=1 firstLib"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/HP/CLionProjects/JIPP2/cmake-build-debug/firstLib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/HP/CLionProjects/JIPP2/cmake-build-debug/firstLib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/HP/CLionProjects/JIPP2/cmake-build-debug/firstLib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="firstLib/fast">
+				<Option output="/cygdrive/c/Users/HP/CLionProjects/JIPP2/cmake-build-debug/firstLib/libfirstLib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/HP/CLionProjects/JIPP2/cmake-build-debug/firstLib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/HP/CLionProjects/JIPP2/firstLib/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/HP/CLionProjects/JIPP2/cmake-build-debug/firstLib/Makefile&quot;  VERBOSE=1 firstLib/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/HP/CLionProjects/JIPP2/cmake-build-debug/firstLib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/HP/CLionProjects/JIPP2/cmake-build-debug/firstLib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/HP/CLionProjects/JIPP2/cmake-build-debug/firstLib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="firstLibCall">
+				<Option output="/cygdrive/c/Users/HP/CLionProjects/JIPP2/cmake-build-debug/firstLibCall/firstLibCall.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/HP/CLionProjects/JIPP2/cmake-build-debug/firstLibCall"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/HP/CLionProjects/JIPP2/firstLib/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/HP/CLionProjects/JIPP2/cmake-build-debug/firstLibCall/Makefile&quot;  VERBOSE=1 firstLibCall"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/HP/CLionProjects/JIPP2/cmake-build-debug/firstLibCall/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/HP/CLionProjects/JIPP2/cmake-build-debug/firstLibCall/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/HP/CLionProjects/JIPP2/cmake-build-debug/firstLibCall/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="firstLibCall/fast">
+				<Option output="/cygdrive/c/Users/HP/CLionProjects/JIPP2/cmake-build-debug/firstLibCall/firstLibCall.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/HP/CLionProjects/JIPP2/cmake-build-debug/firstLibCall"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/HP/CLionProjects/JIPP2/firstLib/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/HP/CLionProjects/JIPP2/cmake-build-debug/firstLibCall/Makefile&quot;  VERBOSE=1 firstLibCall/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/HP/CLionProjects/JIPP2/cmake-build-debug/firstLibCall/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/HP/CLionProjects/JIPP2/cmake-build-debug/firstLibCall/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/HP/CLionProjects/JIPP2/cmake-build-debug/firstLibCall/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/cygdrive/c/Users/HP/CLionProjects/JIPP2/firstLib/src/lib.cpp">
+			<Option target="firstLib"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/HP/CLionProjects/JIPP2/firstLibCall/main.cpp">
+			<Option target="firstLibCall"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/HP/CLionProjects/JIPP2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/HP/CLionProjects/JIPP2/simpleCalc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\simpleCalc\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/HP/CLionProjects/JIPP2/allocation_basics/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\allocation_basics\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/HP/CLionProjects/JIPP2/firstLib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\firstLib\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/HP/CLionProjects/JIPP2/firstLibCall/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\firstLibCall\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
