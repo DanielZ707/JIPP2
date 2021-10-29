@@ -14,7 +14,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../firstLib/include"
+  "../firstLibCall/../firstLib/include"
   )
 
 # The set of dependency files which are needed:
@@ -23,7 +23,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/cygdrive/c/Users/HP/CLionProjects/JIPP2/cmake-build-debug/firstLib/CMakeFiles/firstLib.dir/DependInfo.cmake"
+  "/cygdrive/c/Users/HP/CLionProjects/JIPP2/cmake-build-debug/firstLib/CMakeFiles/firstLibLib.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

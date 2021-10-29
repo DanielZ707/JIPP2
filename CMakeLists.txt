@@ -8,4 +8,10 @@ add_subdirectory(firstLib)
 
 add_subdirectory(firstLibCall)
 
+add_subdirectory(matrixApp)
+
+add_subdirectory(matrixLib)
+
+
+
 

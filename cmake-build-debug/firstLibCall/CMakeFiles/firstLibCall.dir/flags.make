@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++.exe
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/cygdrive/c/Users/HP/CLionProjects/JIPP2/firstLib/include
+CXX_INCLUDES = -I/cygdrive/c/Users/HP/CLionProjects/JIPP2/firstLibCall/../firstLib/include
 
 CXX_FLAGS = -g -std=gnu++17
 

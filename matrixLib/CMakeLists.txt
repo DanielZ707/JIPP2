@@ -4,4 +4,4 @@ set(CMAKE_CXX_STANDARD 17)
 
 include_directories(include)
 
-add_library(firstLibLib STATIC src/lib.cpp)
+add_library(MacLibLib STATIC src/MacLib.cpp)

@@ -88,7 +88,7 @@ firstLibCall_EXTERNAL_OBJECTS =
 
 firstLibCall/firstLibCall.exe: firstLibCall/CMakeFiles/firstLibCall.dir/main.cpp.o
 firstLibCall/firstLibCall.exe: firstLibCall/CMakeFiles/firstLibCall.dir/build.make
-firstLibCall/firstLibCall.exe: firstLib/libfirstLib.a
+firstLibCall/firstLibCall.exe: firstLib/libfirstLibLib.a
 firstLibCall/firstLibCall.exe: firstLibCall/CMakeFiles/firstLibCall.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/HP/CLionProjects/JIPP2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable firstLibCall.exe"
 	cd /cygdrive/c/Users/HP/CLionProjects/JIPP2/cmake-build-debug/firstLibCall && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/firstLibCall.dir/link.txt --verbose=$(VERBOSE)

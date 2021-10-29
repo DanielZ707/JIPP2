@@ -4,8 +4,8 @@ set(CMAKE_CXX_STANDARD 17)
 
 project(firstLibCall)
 
-include_directories(${CMAKE_SOURCE_DIR}/firstLib/include)
+include_directories(../firstLib/include)
 
 add_executable(firstLibCall main.cpp)
 
-target_link_libraries(firstLibCall firstLib)
+target_link_libraries(firstLibCall firstLibLib)
