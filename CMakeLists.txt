@@ -12,6 +12,15 @@ add_subdirectory(matrixApp)
 
 add_subdirectory(matrixLib)
 
+add_subdirectory(klasy_i_struktury)
+
+add_subdirectory(copyingConstructor)
+
+add_subdirectory(konstruktory_kopiujace_lab5)
+
+add_subdirectory(przeciazenia)
+
+add_subdirectory(dziedziczenie)
 
 
 
