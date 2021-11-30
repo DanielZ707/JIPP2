@@ -298,6 +298,7 @@ double **multiplyMatrix(double **A,double  **B, int e, int d, int f) {
             for (int m = 0; m < d; m++) s += A[k][m] * B[m][l];
             C[k][l] = s;
         }
+
     return C;
 };
 
