@@ -22,5 +22,9 @@ add_subdirectory(przeciazenia)
 
 add_subdirectory(dziedziczenie)
 
+add_subdirectory(Projekt_lib)
+
+add_subdirectory(Projekt)
+
 
 
